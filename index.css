@@ -1,0 +1,118 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+    
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-family: 'Source Sans Pro';
+font-style: normal;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    max-width: 400px;
+    margin: auto;
+}
+.container{
+    max-width: 400px;
+    margin: auto;
+}
+#user-avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    padding: 0.4rem;
+    margin: auto 0;
+}
+
+#logo {
+    margin: auto 0;
+    width: 127px;
+    padding: 0.5rem;
+}
+
+.avatar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5rem;
+    gap: 10px;
+   
+}
+
+.avatar-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    padding: 0.3rem;
+    border: 2px solid red;
+    
+}
+ #avatar-inner {
+    font-size: 12px;
+    line-height: 15px;
+ }
+#name {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+}
+
+#location{
+    font-size: 0.7rem;
+     margin: 0;
+    padding: 0;
+   
+}
+
+#post-img{
+    width: 100%;
+}
+#icons{
+    padding-left: 0.6rem;
+    
+}
+.liked {
+    color: red;
+}
+.icon{
+    margin: 0.5rem 3px;
+  
+}
+
+#likes {
+    font-weight: bold;
+   padding-left: 0.9rem;
+    margin: 10px auto;
+    margin: 0 auto;
+    font-size: 13px;
+line-height: 16px
+    
+}
+
+.last{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+line-height: 16px
+}
+
+#user-name{
+    font-weight: bold;
+    margin-left: 0.6rem;
+    
+}
+
