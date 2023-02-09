@@ -12,25 +12,37 @@ html, body {
 body{
     font-family: 'Source Sans Pro';
 font-style: normal;
+background-color: rgb(248, 247, 247);
 }
 header {
     width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid lightgray;
+    border: 1px solid lightgray;
+    
     max-width: 400px;
     margin: auto;
 }
 .container{
     max-width: 400px;
-    margin: auto;
+    margin: 55px auto 45px auto;
+    padding: 1rem;
+    border: 2px solid lightgray;
+    display: block;
+    position: static;
+    background-color: white;
 }
 #user-avatar{
     width: 50px;
     height: 50px;
     border-radius: 100%;
     padding: 0.4rem;
-    margin: auto 0;
+    margin: auto 10px;
 }
 
 #logo {
@@ -52,8 +64,8 @@ header {
     width: 50px;
     height: 50px;
     border-radius: 100%;
-    padding: 0.3rem;
-    border: 2px solid red;
+    padding: 0.1rem;
+    border: 1px solid green;
     
 }
  #avatar-inner {
@@ -71,6 +83,7 @@ header {
     font-size: 0.7rem;
      margin: 0;
     padding: 0;
+    
    
 }
 
@@ -83,6 +96,7 @@ header {
 }
 .liked {
     color: red;
+    
 }
 .icon{
     margin: 0.5rem 3px;
@@ -116,3 +130,24 @@ line-height: 16px
     
 }
 
+footer {
+    width: 100%;
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 400px;
+    margin: auto;
+    border: 1px solid lightgray;
+    padding: 5px;
+    
+}
+
+footer #user-avatar {
+    width: 35px;
+    height: 35px;
+}
